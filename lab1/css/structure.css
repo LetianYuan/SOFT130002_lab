@@ -1,0 +1,40 @@
+body
+{
+	background-color:#F6F6F6;
+}
+footer.copy
+{
+	clear: both;	
+	display: block;
+	color:#FFFFFF;
+	text-align:center;
+	padding: 10px;
+	float: down;	
+}
+nav 
+{
+	top: -20px;
+	position: relative;
+	background-color: #FFFFFF;
+	display:block;
+	text-align: center;
+}
+nav span
+{
+	float: right;	
+}
+section 
+{
+	display:block;
+	width:80%;
+	float:left;
+}
+section header
+{
+	text-align: center;
+}
+aside {
+	display:block;
+	width:20%;
+	float: right;
+}
