@@ -1,0 +1,143 @@
+@import "reset.css";
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(../images/register_background.png);
+}
+
+nav
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 0;
+    position: relative;
+    height: 44px;
+    background-color: #FFFFFF;
+    display: block;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav a
+{
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 15pt;
+    color: #808080;
+}
+
+nav a:hover
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+nav span
+{
+    float: right;
+}
+
+input
+{
+    height: 35px;
+    width: 60%;
+    font-size: 15pt;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #56707f;
+    display: inline-block;
+    background: #fff;
+}
+
+input:focus
+{
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+input[type="checkbox"], input[type="radio"]
+{
+    height: auto;
+    width: auto;
+    margin-bottom: 0;
+}
+
+select
+{
+    font-size: 15pt;
+    border: 1px solid #56707f;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+
+fieldset
+{
+    position: relative;
+    height: 1120px;
+    width: 800px;
+    margin:20px auto;
+    z-index: 50;
+    background: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+legend
+{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: #0884FF;
+    line-height: 50px;
+}
+
+section
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+label
+{
+    width: 250px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+textarea
+{
+    width: 600px;
+    height: 300px;
+    resize: none;
+}
+
+input#verification_code
+{
+    margin-top: 30px;
+    width: 100px;
+}
+
+input[type="submit"]
+{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 200px;
+    background: #0884FF;
+    color: #FFFFFF;
+    border: 1px solid #56707f;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}

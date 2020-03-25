@@ -1,0 +1,179 @@
+@import "reset.css";
+
+footer.copy
+{
+    clear: both;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    float: bottom;
+    background: #0884FF;
+}
+
+nav
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 0;
+    position: relative;
+    height: 44px;
+    background-color: #FFFFFF;
+    display: block;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav a
+{
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 15pt;
+    color: #808080;
+}
+
+nav a:hover
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+nav span
+{
+    float: right;
+}
+
+body
+{
+    float: left;
+}
+
+section
+{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    margin: 30px 30px;
+    padding: 10px 30px;
+    width: 70%;
+    background: #FFFFFF;
+    border: 5px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+section ul
+{
+    list-style: none;
+}
+
+section li
+{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #808080;
+}
+
+section li h4
+{
+    color: #404040;
+    font-size: 15pt;
+}
+
+section li h4:hover
+{
+    cursor: pointer;
+    color: #0884FF;
+}
+
+
+section li span
+{
+    color: #80C0FF;
+}
+
+section li span:hover
+{
+    cursor: pointer;
+}
+
+section li h5
+{
+    margin-top: 10px;
+    color: #808080;
+}
+
+section li p
+{
+    color: #808080;
+}
+
+section li pre
+{
+    color: #808080;
+    white-space: pre-wrap;
+}
+
+section header
+{
+    text-align: center;
+    font-size: 20pt;
+}
+
+section li div
+{
+    margin-top: 10px;
+}
+
+section li div:hover
+{
+    cursor: pointer;
+    color: #0884FF;
+}
+
+section footer
+{
+    text-align: center;
+}
+
+aside
+{
+    float: right;
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 0;
+    margin: 30px 30px;
+    background: #FFFFFF;
+    border: 5px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+aside ul
+{
+    list-style: none;
+}
+
+aside ul li
+{
+	margin: 10px 10px;
+}
+
+aside ul li a
+{
+    text-decoration: none;
+    font-size: 15pt;
+	font-weight: bold;
+    color: black;
+}
+
+aside ul li a:hover
+{
+    color: #0884FF;
+    cursor: pointer;
+}
