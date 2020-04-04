@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="index.css" rel="stylesheet">
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <title>Index</title>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img alt="Brand" src="images/infinite.png" width="27px" height="27px"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="true">User<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Upload</a></li>
+                        <li><a href="#">My Photo</a></li>
+                        <li><a href="#">My Favorite</a></li>
+                        <li><a href="#">Log In</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br/>
+<br/>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="images/1.jpg" width="100%" alt="...">
+            <div class="carousel-caption">
+                One
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/2.jpg" width="100%" alt="...">
+            <div class="carousel-caption">
+                Two
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/3.jpg" width="100%" alt="...">
+            <div class="carousel-caption">
+                Three
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/5855221959.jpg"
+                     title="Lewes Castle"
+                     alt="5855221959"
+                     class="img-rounded">
+            </a>
+            <h2>Lewes Castle</h2>
+            <p class="image_description">Lewes Castle stands at the highest point of Lewes, East Sussex, England on an
+                                         artificial mound constructed with chalk blocks.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/5856616479.jpg"
+                     title="Cliff"
+                     alt="5856616479"
+                     class="img-rounded">
+            </a>
+            <h2>Cliff</h2>
+            <p class="image_description">A cliff is a mass of rock that rises very high and is almost vertical, or
+                                         straight up-and-down. Cliffs are very common landscape features.</p>
+
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/6596046267.jpg"
+                     title="Rockefeller Center"
+                     alt="6596046267"
+                     class="img-rounded">
+            </a>
+            <h2>Rockefeller Center</h2>
+            <p class="image_description">New York City's historic landmark for dining and shopping in the heart of
+                                         Midtown Manhattan.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/9504445110.jpg"
+                     title="Santa Maria Novella"
+                     alt="9504445110"
+                     class="img-rounded">
+            </a>
+            <h2>Santa Maria Novella</h2>
+            <p class="image_description">Santa Maria Novella is a church in Florence, Italy, situated opposite, and
+                                         lending its name to, the city's main railway station.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/8645912379.jpg"
+                     title="Christ Church"
+                     alt="8645912379"
+                     class="img-rounded">
+            </a>
+            <h2>Christ Church</h2>
+            <p class="image_description">Christ Church is a constituent college of the University of Oxford in
+                                         England.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/6115548152.jpg"
+                     title="Checkpoint Charlie"
+                     alt="6115548152"
+                     class="img-rounded">
+            </a>
+            <h2>Checkpoint Charlie</h2>
+            <p class="image_description">Checkpoint Charlie was the name given by the Western Allies
+                                         to the best-known Berlin Wall crossing point between East Berlin and West
+                                         Berlin during the Cold War.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/5855735700.jpg"
+                     title="Arsenal"
+                     alt="5855735700"
+                     class="img-rounded">
+            </a>
+            <h2>Arsenal</h2>
+            <p class="image_description">Arsenal Football Club is a professional football club based in Islington,
+                                         London, England, that plays in the Premier League, the top flight of English
+                                         football.</p>
+        </div>
+        <div class="col-xs-6 col-lg-4">
+            <a href="#">
+                <img src="images/6114881215.jpg"
+                     title="Brandenburg Gate"
+                     alt="6114881215"
+                     class="img-rounded">
+            </a>
+            <h2>Brandenburg Gate</h2>
+            <p class="image_description">The Brandenburg Gate is an 18th-century neoclassical monument in Berlin, built
+                                         on the orders of Prussian king Frederick William II after the temporary
+                                         restoration of order during the Batavian Revolution.</p>
+        </div>
+    </div>
+</div>
+
+
+<footer class="panel-footer">
+    <div class="container">
+        <img class="pull-left" src="images/weixin.jpg" alt="微信" title="联系我们" width="80px" height="80px">
+        <p>&nbsp;&nbsp;&nbsp;联系我们:19302010019@fudan.edu.cn</p>
+        <p>&nbsp;&nbsp;&nbsp;(旦)-学习性-2020-0001&nbsp;&nbsp;&nbsp;旦公网安备19302010019号&nbsp;&nbsp;&nbsp;旦ICP证000019号</p>
+        <div id="copyrightRow">
+            <p class="copyright">&nbsp;&nbsp;&nbsp;Copyright &copy;2020 Letian Yuan. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

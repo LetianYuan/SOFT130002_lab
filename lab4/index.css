@@ -1,0 +1,15 @@
+/*本来不想用任何css，但是似乎以下两个功能无法用Bootstrap来实现*/
+.col-xs-6 img
+{
+    width: 100%;
+    height: 220px;
+    object-fit: cover; /*自动裁剪图片*/
+}
+
+p.image_description
+{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /*当文本超过两行时，超出的内容用...来表示*/
+    overflow: hidden;
+}
