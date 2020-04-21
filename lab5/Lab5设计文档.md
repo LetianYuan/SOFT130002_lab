@@ -100,8 +100,8 @@ function arrSameStr()
 
 ## Github截图
 
-![github截图](screenshot_github.jpg)
+![github截图](./screenshot_github.jpg)
 
 ## 网页效果截图
 
-![网页效果截图](screenshot_page.jpg)
+![网页效果截图](./screenshot_page.jpg)
