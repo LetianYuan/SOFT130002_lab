@@ -133,8 +133,8 @@ result = new Set(Array.from(result).sort(cmp).slice(0, 10));
 这道题使用Set的目的是大大简化查找的次数。比如将“aaaabbbbbbbbcccccccccccddddddddd"放入一个Set中就可以简化为值查找四次，即a、b、c、d
 
 ```js
-let upperCaseActualInput = actualInput.toUpperCase();
-console.log(new Set(Array.from(new Set(wantInput.toUpperCase())).filter(e => !upperCaseActualInput.includes(e))));
+let upperCaseActualInput = new Set(actualInput.toUpperCase());
+console.log(new Set(Array.from(new Set(wantInput.toUpperCase())).filter(e => !upperCaseActualInput.has(e))));
 ```
 
 我利用Array的filter函数来把wantInput中的actualInput部分去除，剩下就是答案了
