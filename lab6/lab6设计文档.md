@@ -151,7 +151,7 @@ console.log(new Set(Array.from(new Set(wantInput.toUpperCase())).filter(e => !up
 
 ## 第七题
 
-> 集合（这里Map起到的作用只有它的key值，所以是集合）模板题
+> 哈希表模板题
 
 ## 第八题
 
